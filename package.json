@@ -1,0 +1,20 @@
+{
+  "name": "vue2md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/bin/vue2md.js",
+  "bin": {
+    "vue2md": "/bin/vue2md.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "node ./bin/vue2md.js ./test/test.vue"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@vuedoc/parser": "3.4.0"
+  }
+}
