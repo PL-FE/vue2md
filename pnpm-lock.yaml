@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuedoc/parser': 3.4.0
+  markdown-table: ^2.0.0
 
 dependencies:
   '@vuedoc/parser': 3.4.0
+  markdown-table: 2.0.0
 
 packages:
 
@@ -50,6 +52,17 @@ packages:
   /he/1.2.0:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
+    dev: false
+
+  /markdown-table/2.0.0:
+    resolution: {integrity: sha512-Ezda85ToJUBhM6WGaG6veasyym+Tbs3cMAw/ZhOPqXiYsr0jgocBV3j3nx+4lk47plLlIqjwuTm/ywVI+zjJ/A==}
+    dependencies:
+      repeat-string: 1.6.1
+    dev: false
+
+  /repeat-string/1.6.1:
+    resolution: {integrity: sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w==}
+    engines: {node: '>=0.10'}
     dev: false
 
   /to-fast-properties/2.0.0:

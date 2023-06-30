@@ -8,13 +8,14 @@
   },
   "preferGlobal": true,
   "scripts": {
-    "test": "node ./bin/vue2md.js ./test/test.vue"
+    "test": "node ./bin/vue2md.js ./test/test.vue",
+    "test2": "node ./bin/vue2md.js ./demo/demo2/index.vue"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
-    "@vuedoc/parser": "3.4.0"
+    "@vuedoc/parser": "3.4.0",
+    "markdown-table": "^2.0.0"
   }
 }
