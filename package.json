@@ -1,7 +1,7 @@
 {
   "name": "vue2md",
   "version": "1.0.0",
-  "description": "",
+  "description": "解析vue文件生成md文件,目前支持vue2",
   "main": "/bin/vue2md.js",
   "bin": {
     "vue2md": "/bin/vue2md.js"
@@ -9,13 +9,28 @@
   "preferGlobal": true,
   "scripts": {
     "test": "node ./bin/vue2md.js ./test/test.vue",
-    "test2": "node ./bin/vue2md.js ./demo/demo2/index.vue"
+    "link": "pnpm link --dir MYLIBRARY_DIRECTORY --global"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PL-FE/vue2md.git"
+  },
+  "keywords": [
+    "vuedoc",
+    "vue",
+    "doc",
+    "documentation",
+    "markdown",
+    "md"
+  ],
+  "author": "pengliang",
   "license": "ISC",
+  "homepage": "https://github.com/PL-FE/vue2md",
   "dependencies": {
     "@vuedoc/parser": "3.4.0",
     "markdown-table": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
