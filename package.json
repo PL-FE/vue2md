@@ -1,15 +1,15 @@
 {
   "name": "vue2md",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "解析vue文件生成md文件,目前支持vue2",
-  "main": "/bin/vue2md.js",
+  "main": "/bin/cli.js",
   "bin": {
-    "vue2md": "/bin/vue2md.js"
+    "vue2md": "/bin/cli.js"
   },
   "preferGlobal": true,
   "scripts": {
-    "test": "node ./bin/vue2md.js ./test/test.vue -json",
-    "testProd": "node ./bin/vue2md.js ./test/test.vue",
+    "test": "node ./bin/cli.js --input ./test/test.vue --output ./lib",
+    "testProd": "node ./bin/cli.js --input ./test/test.vue",
     "link": "pnpm link --dir MYLIBRARY_DIRECTORY --global"
   },
   "repository": {

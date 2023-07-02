@@ -8,9 +8,22 @@
 ```cmd
 npm i vue2md -g
 
-vue2md [文件路径]
+vue2md --input [文件路径]
 ```
 
-会在文件目录生成同名 md 文件
+## 命令
+```shell 
+--input,-i # 指定输入文件路径
+--output，-o # 指定输出路径
+```
 
-[md 文件 demo](https://github.com/PL-FE/vue2md/blob/main/test/test.md)
+
+例如：
+```js
+// 默认会在输入的文件目录生成同名 md 文件
+vue2md --input [文件路径]
+
+// 指定输出路径
+vue2md --input [文件路径] --output [输出路径]
+```
+
